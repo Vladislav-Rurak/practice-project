@@ -8,6 +8,8 @@ import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
+import ReadyToGetStarted from './ReadyToGetStarted/ReadyToGetStarted';
+import AgencyLevel from './AgencyLevel/AgencyLevel';
 
 const Home = props => {
   const [index, setIndex] = useState(0);
@@ -250,12 +252,20 @@ const Home = props => {
                 DASHBOARD
               </Link>
             </div>
+            <div className={styles.agencyContainer}>
+              <div className={styles.agencyArticlesContainer}>
+                <AgencyLevel />
+              </div>
+            </div>
             <div className={styles.blueContainer}>
               <h2 className={styles.whiteUnderline}>What our customers say</h2>
               <SlideBar
                 images={carouselConstants.feedbackSliderImages}
                 carouselType={carouselConstants.FEEDBACK_SLIDER}
               />
+            </div>
+            <div className={styles.readyToGetStartedContainer}>
+              <ReadyToGetStarted />
             </div>
           </div>
           <Footer />

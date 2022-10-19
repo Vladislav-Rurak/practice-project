@@ -47,37 +47,27 @@ class Header extends React.Component {
             />
             <ul>
               <li>
-                <Link to='/dashboard' style={{ textDecoration: 'none' }}>
+                <Link to='/dashboard'>
                   <span>View Dashboard</span>
                 </Link>
               </li>
               <li>
-                <Link to='/account' style={{ textDecoration: 'none' }}>
+                <Link to='/account'>
                   <span>My Account</span>
                 </Link>
               </li>
               <li>
-                <Link
-                  to='http:/www.google.com'
-                  style={{ textDecoration: 'none' }}
-                >
+                <Link to='http:/www.google.com'>
                   <span>Messages</span>
                 </Link>
               </li>
               <li>
-                <Link
-                  to='http:/www.google.com'
-                  style={{ textDecoration: 'none' }}
-                >
+                <Link to='http:/www.google.com'>
                   <span>Affiliate Dashboard</span>
                 </Link>
               </li>
               <li>
-                <Link
-                  onClick={this.logOut}
-                  to='http:/www.google.com'
-                  style={{ textDecoration: 'none' }}
-                >
+                <Link onClick={this.logOut} to='/'>
                   <span>Logout</span>
                 </Link>
               </li>
@@ -118,12 +108,12 @@ class Header extends React.Component {
         </div>
         <div className={styles.loginSignnUpHeaders}>
           <div className={styles.numberContainer}>
-            <a href='tel:+877355-3585'>
+            <a href={`tel:${CONSTANTS.CONTACT_INFO.TEL}`}>
               <img
                 src={`${CONSTANTS.STATIC_IMAGES_PATH}phone.png`}
                 alt='phone'
               />
-              <span>(877)&nbsp;355-3585</span>
+              <span>{CONSTANTS.CONTACT_INFO.TEL}</span>
             </a>
           </div>
           <div className={styles.userButtonsContainer}>
@@ -131,11 +121,7 @@ class Header extends React.Component {
           </div>
         </div>
         <div className={styles.navContainer}>
-          <Logo
-            src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`}
-            className={styles.logo}
-            alt='blue_logo'
-          />
+          <Logo />
           <div className={styles.leftNav}>
             <div className={styles.nav}>
               <ul>
