@@ -1,0 +1,82 @@
+[
+  {
+    "color": "#e0b48d",
+    "type": "Bronze",
+    "describeType": "Branding on a budget",
+    "price": "US$299",
+    "profit": [
+      {
+        "body": "Prize to Winner - $135 (Included)",
+        "tooltipe": "111"
+      },
+      {
+        "body": "Validation Services & Upgrades ($39 value)",
+        "tooltipe": "222"
+      },
+      {
+        "body": "Expected 300+ Entries",
+        "tooltipe": "333 "
+      }
+    ]
+  },
+  {
+    "color": "#E8B954",
+    "type": "Gold",
+    "describeType": "Increase participation and basic brand validation",
+    "price": "US$449",
+    "profit": [
+      {
+        "body": "Prize to Winner - $200 (Included)",
+        "tooltipe": "111"
+      },
+      {
+        "body": "Validation Services & Upgrades ($305 value)",
+        "tooltipe": "222"
+      },
+      {
+        "body": "Expected 600+ Entries",
+        "tooltipe": "333 "
+      }
+    ]
+  },
+  {
+    "color": "#555555",
+    "type": "Platinum",
+    "describeType": "Work with top-level creatives, plus agency-style brand validation",
+    "price": "US$749",
+    "profit": [
+      {
+        "body": "Prize to Winner - $300 (Included)",
+        "tooltipe": "111"
+      },
+      {
+        "body": "Validation Services & Upgrades ($979 value)",
+        "tooltipe": "222"
+      },
+      {
+        "body": "Expected 1000+ Entries",
+        "tooltipe": "333 "
+      }
+    ]
+  },
+  {
+    "color": "#28D2D0",
+    "type": "Managed",
+    "describeType": "A full agency experience without the agency price tag",
+    "price": "US$1499",
+    "profit": [
+      {
+        "body": "Receive optimum results from your Platinum Contest by launching a Managed Contest Package and working one-on-one with an experienced Squadhelp Branding Consultant.",
+        "tooltipe": "111"
+      },
+      {
+        "body": "With significantly more validation services, professional brief creation, and daily management of your contest by your Branding Expert, you'll receive an enhanced branding experience to closeout your branding project.",
+        "tooltipe": "222"
+      },
+      {
+        "body": "Learn More about Managed Contest Service",
+        "tooltipe": "333 "
+      }
+    ]
+  }
+]
